@@ -1,7 +1,7 @@
 import { ChevronLeft, Camera, Mail, Phone, MapPin, Calendar, Pencil } from "lucide-react";
 import { Link } from "react-router-dom";
 import BottomNav from "@/components/layout/BottomNav";
-import profileAvatar from "@/assets/profile-avatar.jpg";
+import profileAvatar from "@/assets/profile-avatar.png";
 import { Button } from "@/components/ui/button";
 
 const Profile = () => {
@@ -25,15 +25,16 @@ const Profile = () => {
           <div className="relative mb-4">
             <img
               src={profileAvatar}
-              alt="Krthika Shiv"
-              className="w-28 h-28 rounded-full object-cover border-4 border-card shadow-xl"
+              alt="Krithika Shivkumar"
+              className="w-28 h-28 rounded-full object-cover object-top border-4 border-card shadow-xl"
             />
             <button className="absolute bottom-0 right-0 w-9 h-9 bg-primary rounded-full flex items-center justify-center shadow-lg">
               <Camera className="w-4 h-4 text-primary-foreground" />
             </button>
           </div>
-          <h2 className="text-2xl font-bold text-foreground">Krthika Shiv</h2>
-          <p className="text-muted-foreground">Super Admin</p>
+          <h2 className="text-2xl font-bold text-foreground">Krithika Shivkumar</h2>
+          <p className="text-muted-foreground">Modakkurichi Assembly Constituency</p>
+          <p className="text-sm text-muted-foreground/80">17th Tamil Nadu Assembly</p>
         </div>
 
         {/* Profile Details */}

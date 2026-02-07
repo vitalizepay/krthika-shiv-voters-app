@@ -1,4 +1,4 @@
-import campaignBanner from "@/assets/campaign-banner.jpg";
+import campaignBanner from "@/assets/campaign-banner.png";
 
 const CampaignBanner = () => {
   return (
@@ -6,9 +6,13 @@ const CampaignBanner = () => {
       <div className="rounded-2xl overflow-hidden card-shadow">
         <img
           src={campaignBanner}
-          alt="Campaign Banner"
-          className="w-full h-48 object-cover"
+          alt="Krithika Shivkumar - Modakkurichi Assembly - 17th TN Assembly"
+          className="w-full h-auto object-contain"
         />
+      </div>
+      <div className="text-center mt-3">
+        <p className="text-sm font-medium text-primary">17th Tamil Nadu Assembly Elections</p>
+        <p className="text-xs text-muted-foreground">Modakkurichi Assembly Constituency</p>
       </div>
     </div>
   );

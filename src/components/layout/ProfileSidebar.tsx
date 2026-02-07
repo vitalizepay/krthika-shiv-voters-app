@@ -1,6 +1,6 @@
 import { X, User, Vote, Settings, RefreshCw, Languages, Lock, FileText, ScrollText, Camera } from "lucide-react";
 import { Link } from "react-router-dom";
-import profileAvatar from "@/assets/profile-avatar.jpg";
+import profileAvatar from "@/assets/profile-avatar.png";
 
 interface ProfileSidebarProps {
   isOpen: boolean;
@@ -48,16 +48,17 @@ const ProfileSidebar = ({ isOpen, onClose }: ProfileSidebarProps) => {
             <div className="relative">
               <img
                 src={profileAvatar}
-                alt="Krthika Shiv"
-                className="w-20 h-20 rounded-full object-cover border-4 border-card shadow-lg"
+                alt="Krithika Shivkumar"
+                className="w-20 h-20 rounded-full object-cover object-top border-4 border-card shadow-lg"
               />
               <button className="absolute bottom-0 right-0 w-7 h-7 bg-primary rounded-full flex items-center justify-center shadow-md">
                 <Camera className="w-3.5 h-3.5 text-primary-foreground" />
               </button>
             </div>
             <div>
-              <h2 className="text-xl font-bold text-foreground">Krthika Shiv</h2>
-              <p className="text-sm text-muted-foreground">Super Admin</p>
+              <h2 className="text-xl font-bold text-foreground">Krithika Shivkumar</h2>
+              <p className="text-sm text-muted-foreground">Modakkurichi AC</p>
+              <p className="text-xs text-muted-foreground/80">17th TN Assembly</p>
             </div>
           </div>
         </div>
