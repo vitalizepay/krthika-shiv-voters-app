@@ -2,13 +2,13 @@ import { useState } from "react";
 import { ChevronLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import BottomNav from "@/components/layout/BottomNav";
-import profileAvatar from "@/assets/profile-avatar.jpg";
+import profileAvatar from "@/assets/profile-avatar.png";
 
 const elections = [
   {
     id: 1,
-    name: "Krthika Shiv Demo",
-    type: "Body not specified",
+    name: "Modakkurichi AC",
+    type: "17th TN Assembly",
     state: "Tamil Nadu",
     image: profileAvatar,
   },

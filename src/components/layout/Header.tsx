@@ -15,9 +15,11 @@ const Header = ({ onMenuClick }: HeaderProps) => {
         >
           <Menu className="w-6 h-6 text-foreground" />
         </button>
-        <div className="flex items-center gap-1">
-          <span className="font-semibold text-lg text-foreground">Krthika Shiv</span>
-          <ChevronDown className="w-4 h-4 text-muted-foreground" />
+        <div className="flex flex-col">
+          <span className="font-semibold text-base text-foreground leading-tight">Krithika Shivkumar</span>
+          <span className="text-xs text-muted-foreground flex items-center gap-1">
+            Modakkurichi <ChevronDown className="w-3 h-3" />
+          </span>
         </div>
       </div>
       <div className="flex items-center gap-2">
